@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradient</title>
+    <style>
+        body{ 
+
+            /* background:linear-gradient( to right, red,yellow); */
+            /* background:radial-gradient(red,blue,yellow,orange,green,violet) */
+            /* background:linear-gradient(120deg,blue,green) */
+         } */
+
+
+     .containter{
+            width:100vw;
+            height:80%;
+            border:2px solid black;
+            /* overflow:scroll; */
+         } 
+
+         .scrollable{
+            width:75%;
+            height:200px;
+            /* border:25px solid black; */
+            /* overflow:visible; */
+        
+
+
+        }
+         
+    </style>
+
+</head>
+<body>
+      overflow property 
+     <div class="containter">
+        <div class="scrollable">
+              About us
+Fatured projects
+Careers
+Contact
+css
+CSS Position Relative vs Position Absolute
+The CSS position property defines, as the name says, how the element is positioned on the web page. If you are interested in reading about the font properties, articles about the relative font size and CSS columns might be of interest.
+
+Tatjana B.
+Tatjana B.
+3 min read
+CSS Position Relative vs Position Absolute
+The CSS position property defines, as the name says, how the element is positioned on the web page.
+
+If you are interested in reading about the font properties, articles about the relative font size and CSS columns might be of interest.
+
+So, there are several types of positioning: static, relative, absolute, fixed, sticky, initial and inherit. First of all, let’s explain what all of these types mean.
+
+Static - this is the default value, all elements are in order as they appear in the document.
+Relative - the element is positioned relative to its normal position.
+Absolute - the element is positioned absolutely to its first positioned parent.
+Fixed - the element is positioned related to the browser window.
+Sticky - the element is positioned based on the user’s scroll position.
+Now that we have explained the basics, we will talk more about the two most commonly used position values - relative and absolute.
+
+What Is Relative Positioning?
+When you set the position relative to an element, without adding any other positioning attributes (top, bottom, right, left) nothing will happen. When you add an additional position apart from relative, such as left: 20px the element will move 20px to the right from its normal position. Here, you can see that this element is relative to itself. When the element moves, no other element on the layout will be affected.
+
+There is a thing you should keep in mind while setting position - relative to an element limits the scope of absolutely positioned child elements. This means that any element that is the child of this element can be absolutely positioned within this block.
+
+After this brief explanation, we need to back it up, by showing an example.
+
+In this example, you will see how the relative positioned element moves when its attributes are changed. The first element moves to the left and top from its normal position, while the second element stays in the same place because none of the additional positioning attributes were changed.
+
+<!-- HTML
+<div id=”first_element”>First element</div>
+<div id=”second_element”>Second element</div>
+CSS -->
+#first_element {
+  position: relative;
+  left: 30px;
+  top: 70px;
+
+  width: 500px;
+  background-color: #fafafa;
+  border: solid 3px #ff7347;
+  font-size: 24px;
+  text-align: center;
+}
+
+#second_element {
+   position: relative;
+
+   width: 500px;
+   background-color: #fafafa;
+   border: solid 3px #ff7347;
+   font-size: 24px;
+   text-align: center;
+}
+css_position_relative
+
+What Is Absolute Positioning?
+Absolute positioning allows you to place your element precisely where you want it.
+
+Absolute positioning is done relative to the first relatively (or absolutely) positioned parent element. In the case when there is no positioned parent element, the element that has position set to absolute will be positioned related directly to the HTML element (the page itself).
+
+An important thing to keep in mind while using absolute positioning is to make sure it is not overused, otherwise, it can lead to a maintenance nightmare.
+
+The next thing, yet again, is to show an example of absolute positioning.
+
+In the example, the parent element has the position set to relative. Now, when you set the position of the child element to absolute, any additional positioning will be done relative to the parent element. The child element moves relatively to the top of the parent element by 100px and right of the parent element by 40px.
+
+HTML
+<div id=”parent”>
+  <div id=”child”></div>
+</div>
+CSS
+#parent {
+  position: relative;
+  
+  width: 500px; 
+  height: 400px;
+  background-color: #fafafa;
+  border: solid 3px #9e70ba;
+  font-size: 24px;
+  text-align: center;
+}
+
+#child {
+  position: absolute;
+  right: 40px;
+  top: 100px;
+
+  width: 200px;
+  height: 200px;
+  background-color: #fafafa;
+  border: solid 3px #78e382;
+  font-size: 24px;
+  text-align: center;
+}
+css_position_absolute
+
+Through these examples, you have seen differences between absolute and relative positioned elements.
+
+We hope this article clarified some doubts related to absolute and relative positioning and will help in any future projects.
+
+Check out other detailed articles related to CSS properties such as this one: CSS Positions, SASS and LESS Nesting.
+
+If you liked it, be sure to subscribe to our newsletter - there are more articles to come!
+
+Media Queries
+Media Queries
+Reading this post, I take you know things like internet(daaah), browser, responsiveness and good music (I can only hope). With that in mind I will continue the story... Every presentation made for the browser (web presentation) in today's world, can be seen through millions of different devices (if the
+3 min read
+Elixir - basic api guide
+Elixir - basic api guide
+Elixir api guide Elixir represents relatively new programming language for wider audience. His main trait is that adops functional pardigm because it is built on top of Erlang and runs on BEAM(Erlang VM).
+20 min read
+
+Novi Sad, Serbia, Europe
+
+
+
+
+
+Company
+About Us
+Careers
+Blog
+Contact
+Services
+Our Process
+Portfolio
+Solutions
+Design Review
+Code Review
+Open Source
+Copyright © 2023 KOLOSEK. All rights reserved. 
+
+        </div>
+     </div>
+
+</body>
+</html>

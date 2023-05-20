@@ -1,0 +1,73 @@
+              /* task1 */
+ /* div{
+    background-color: aqua;
+    width:350px;
+    border :5px double blueviolet;
+    padding:20px;
+    margin-left: 40%;
+}
+h2{
+    display:flex;
+    justify-content: center;
+}
+p{
+    display:flex;
+    justify-content: center;
+    border:10px dotted lightgreen;
+    width:1300px;
+    margin-left: 300px; 
+}  */
+
+/* task 2 */
+ h2{
+    display:flex;
+    justify-content: center;
+}
+.div3{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    opacity: 0.5;
+    cursor:pointer;
+}
+.div1{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    opacity: 0.5;
+    cursor:pointer;
+}
+.div2{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    opacity: 0.5;  
+    cursor:pointer;
+}
+
+ p{
+    font-size: 20px;
+    border:5px solid grey;
+    width:400px;
+    padding:10px;
+    position:relative;
+    margin-left: 39%;
+    background-color: dimgray;
+    color:whitesmoke;
+    
+ }
+  .div3:hover{
+    opacity: 1;
+    
+  }
+  .div1:hover{
+    opacity: 1;
+  }
+  .div2:hover{
+    opacity: 1;
+  }
+
+ p:hover{
+    color:darkblue;
+    background-color: dodgerblue;
+ }

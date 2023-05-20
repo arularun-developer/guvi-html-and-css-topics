@@ -1,0 +1,98 @@
+/* . sticky and footer selection
+fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: burlywood;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+body {
+    padding-top: 10px;
+}
+
+.main {
+    /* height:100px; */
+/* /* } * */
+
+
+
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:70px;
+    background-color:cornflowerblue;
+    text-align: center;
+} */
+
+
+/* nav bar selection */
+/* .sticky-nav{
+
+    position:sticky;
+    background-color: cadetblue;
+    color:brown;
+    padding:10px;
+}
+.sticky-nav ul{
+    list-style:none;
+    margin: 0;
+    padding:0;
+
+}
+.sticky-nav li{
+    display:inline;
+    margin-right: 30px;
+    
+}
+.sticky-nav a{
+    text-decoration: none; 
+    font-family: sans-serif;
+    border:5px inset lightgreen;
+    border-radius:3px;
+}
+.home{
+     text-align: center;
+} */
+
+
+/* .containter{
+    width:400px;
+    border:4px solid  brown;
+    height:300px;
+}
+.absoultediv{
+    position:absolute;
+    background-color:blueviolet;
+    width:100px;
+    height:100px;
+    top:20px;
+    left:20px;
+}
+.relativediv{
+   position:relative;
+   top:20px;
+   left:20px;
+    background-color:chocolate;
+    width:100px;
+    height:100px; 
+    
+} */
