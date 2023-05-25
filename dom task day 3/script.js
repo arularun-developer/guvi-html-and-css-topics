@@ -17,15 +17,11 @@
  
     // task 2
     // Use prompt to read a value from user and display it in the span element.
+// let getInput =document.getElementById('get')
 
-    //  let button =document.getElementById('butonclick');
-     
-    //  button.addEventListener('click',function(){
-    //     let person = prompt('please enter your name ','arunkumar');
-    //     if(person != null){
-    //         document.getElementById('text').innertext =`hello ${person}! how are you `
-    //     }
-        
-    //  })
-        
-    
+// let BUTTONINPUT =document.getElementById('button1')
+
+// getinput.addEventListener('cilck',function ( event ){
+//   SpanElement.textContent =window.prompt('say something')
+// });
+
